@@ -1,0 +1,32 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore data files (optional — comment out if you want to upload dataset)
+emails.csv
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore large or generated model files
+*.pkl
+*.sav
+*.joblib
